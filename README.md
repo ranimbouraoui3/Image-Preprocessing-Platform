@@ -39,19 +39,24 @@ This repository contains a full-stack project for **image editing, transformatio
 ## Project Structure
 
 ```
-.
-├── app/                    # Next.js pages / routes
-├── components/             # React components
-├── hooks/                  # Custom React hooks
-├── lib/                    # API services
-├── public/                 # Public static assets
-├── backend/                # FastAPI server code
-│   ├── main.py            # FastAPI application
-│   ├── requirements.txt   # Python dependencies
-│   └── uploads/           # Uploaded images (backend storage)
-├── .next/                  # Next.js build folder
-├── package.json            # Frontend dependencies
-└── README.md               # Project documentation
+Image-Preprocessing-Platform/
+├── image-preporcessing-platform-frontend/
+│   ├── app/                    # Next.js pages / routes
+│   ├── components/             # React components
+│   ├── hooks/                  # Custom React hooks
+│   ├── lib/                    # API services
+│   ├── public/                 # Public static assets
+│   ├── styles/                 # Global styles
+│   ├── .gitignore              # Git ignore rules
+│   ├── FRONTEND_SETUP.md       # Frontend setup guide
+│    ...
+
+├── image-preprocessing-backend/
+│   ├── main.py                 # FastAPI application
+│   ├── requirements.txt        # Python dependencies
+│   └── uploads/                # Uploaded images (backend storage)
+│
+└── README.md                   # Project documentation
 ```
 
 ---
@@ -63,7 +68,7 @@ This repository contains a full-stack project for **image editing, transformatio
 1. Navigate to the backend folder:
 
 ```bash
-cd backend
+cd image-preprocessing-backend
 ```
 
 2. Create and activate a Python virtual environment:
@@ -96,10 +101,10 @@ The backend API will be accessible at: **http://localhost:8000**
 
 ### Frontend
 
-1. Navigate to the frontend folder (project root if Next.js is there):
+1. Navigate to the frontend folder:
 
 ```bash
-cd frontend
+cd image-preporcessing-platform-frontend
 ```
 
 2. Install dependencies:
