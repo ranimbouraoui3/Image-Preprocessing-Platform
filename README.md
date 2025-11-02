@@ -163,20 +163,4 @@ UPLOADS_DIR=uploads
 - Make sure the backend is running before starting the frontend to avoid broken API calls
 - For API documentation, visit **http://localhost:8000/docs** (FastAPI auto-generated docs)
 
----
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
----
-
-## Contact
-
-For questions or support, please open an issue in this repository.
